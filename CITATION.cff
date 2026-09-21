@@ -8,6 +8,8 @@ authors:
 version: 0.1.0
 date-released: 2026-09-21
 license: MIT
+repository-code: "https://github.com/intjpatternrecogn-spec/jev-autonomous-driving"
+url: "https://github.com/intjpatternrecogn-spec/jev-autonomous-driving"
 keywords:
   - JEV architecture
   - autonomous driving

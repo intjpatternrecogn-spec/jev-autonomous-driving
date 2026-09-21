@@ -12,6 +12,11 @@ license = {text = "MIT"}
 keywords = ["jev", "autonomous-driving", "decision-model", "candidate-embeddings", "safety-shield", "robotics"]
 authors = [{name = "Chen Shuai"}]
 
+[project.urls]
+Homepage = "https://github.com/intjpatternrecogn-spec/jev-autonomous-driving"
+Repository = "https://github.com/intjpatternrecogn-spec/jev-autonomous-driving"
+Documentation = "https://github.com/intjpatternrecogn-spec/jev-autonomous-driving/blob/main/docs/ARCHITECTURE.md"
+
 [project.scripts]
 jev-driving = "jev_driving.cli:main"
 
