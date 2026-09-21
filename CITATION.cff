@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If this reference implementation helps your work, please cite the repository."
+title: "JEV Architecture for Autonomous Driving"
+type: software
+authors:
+  - family-names: "Chen"
+    given-names: "Shuai"
+version: 0.1.0
+date-released: 2026-09-21
+license: MIT
+keywords:
+  - JEV architecture
+  - autonomous driving
+  - candidate embeddings
+  - decision making
+  - motion planning

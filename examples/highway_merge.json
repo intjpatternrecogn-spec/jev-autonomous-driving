@@ -1,0 +1,14 @@
+{
+  "state": {
+    "ego_speed_mps": 18.0,
+    "speed_limit_mps": 22.0,
+    "front_distance_m": 24.0,
+    "front_relative_speed_mps": -2.0,
+    "left_lane_available": true,
+    "right_lane_available": false,
+    "pedestrian_distance_m": null,
+    "traffic_light": "green"
+  },
+  "question": "What is the safest useful maneuver for the next planning step?",
+  "candidates": ["keep lane", "change left", "change right", "brake"]
+}

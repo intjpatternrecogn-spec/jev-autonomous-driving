@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=59", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-autonomous-driving"
+version = "0.1.0"
+description = "Clean-room JEV-inspired candidate-embedding decision architecture for autonomous-driving research"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["jev", "autonomous-driving", "decision-model", "candidate-embeddings", "safety-shield", "robotics"]
+authors = [{name = "Chen Shuai"}]
+
+[project.scripts]
+jev-driving = "jev_driving.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jev_driving*"]

@@ -1,0 +1,9 @@
+# JEV Autonomous Driving
+
+Canonical summary: an independent, clean-room implementation of a hypothesized JEV-style architecture for autonomous-driving decisions. It encodes shared state once, combines a typed question with state memory, independently embeds a dynamic set of candidate maneuvers, scores them in parallel, and applies masked softmax.
+
+Original domain improvements: deterministic safety shielding, dynamics-aware priors, temporal anti-oscillation, and confidence-based abstention.
+
+Important: JEV's proprietary internal neural architecture is not public. This repository is a research proposal and is not affiliated with or endorsed by TypeSafe AI. The code contains no proprietary vehicle software or company data and must not control a real vehicle.
+
+Primary documents: README.md, docs/ARCHITECTURE.md, SECURITY.md.
